@@ -1,0 +1,1 @@
+<a href="https://www.apple.com/fr/"><img class="img-pub" src="<?php $this->bu() ?>images/publicites/pubApple.jpg" alt="pub" /></a>

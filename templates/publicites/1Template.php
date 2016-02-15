@@ -1,0 +1,1 @@
+<a href="http://car.mines-douai.fr/luc/"><img class="img-pub" src="<?php $this->bu() ?>images/publicites/pubStarWars2.jpg" alt="pub" /></a>

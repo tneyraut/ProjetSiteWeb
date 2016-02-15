@@ -1,0 +1,75 @@
+.path {
+    fill:none;
+    stroke-width: 10px;
+    stroke: transparent;
+    stroke-linecap: square;
+}
+
+.path_clickable {
+    cursor: pointer;
+}
+
+.player_rouge .path_clickable:hover, .player_rouge.path_selected {
+    stroke: red !important;
+    stroke-linecap: round;
+}
+
+.player_marron .path_clickable:hover, .player_marron.path_selected {
+    stroke: #954621 !important;
+    stroke-linecap: round;
+}
+
+.player_vert .path_clickable:hover, .player_vert.path_selected {
+    stroke: green !important;
+    stroke-linecap: round;
+}
+
+.player_bleu .path_clickable:hover, .player_bleu.path_selected {
+    stroke: blue !important;
+    stroke-linecap: round;
+}
+
+.player_prune .path_clickable:hover, .player_prune.path_selected {
+    stroke: #9f237b !important;
+    stroke-linecap: round;
+}
+
+.path_rose { 
+    stroke:#d697c6;
+}
+
+.path_jaune { 
+    stroke:#d0d64c;
+}
+
+.path_vert {
+    stroke:#00ff66; 
+}
+
+.path_rouge {
+    stroke: #b82929;
+}
+
+.path_aucune { 
+    stroke:#bababa; 
+}
+
+.path_blanc {
+    stroke:white;
+}
+
+.path_bleu { 
+    stroke:#318dab;
+}
+
+.path_orange { 
+    stroke:#e97825; 
+}
+
+.path_noir {
+    stroke:#555555;
+}
+
+.path_violet {
+    stroke: #9877b1;
+}

@@ -1,0 +1,1 @@
+<a href="https://fr.wikipedia.org/wiki/Malloc"><img class="img-pub" src="<?php $this->bu() ?>images/publicites/pubMedicament.jpg" alt="pub" /></a>

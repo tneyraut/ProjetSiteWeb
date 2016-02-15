@@ -1,0 +1,510 @@
+html{
+    height:100%;
+    width: 100%;
+}
+
+body{
+
+    background: url("background.png") fixed top no-repeat;
+    height : 100%;
+    background-color: #cccccc;
+    min-width: 1150px;
+
+}
+
+header{
+    background: url("titre.png") top no-repeat;
+    background-size: 55%;
+    width: 100%;
+    height: 225px;
+}
+
+h1{
+	margin-top:0px;
+}
+
+#navigateuruser{
+	color: #ffffce;
+    text-align: center;
+    background: url("banniere.png") no-repeat;
+    background-size:1150px 50px;
+    background-position: center;
+    margin-bottom: 5%;
+	min-width:1180px;
+}
+
+#navigateuranonymous{
+    color: #ffffce;
+    text-align: center;
+    background: url("banniere.png") no-repeat;
+    background-size:400px 50px;
+    background-position: center;
+    margin-bottom: 3%;
+}
+
+#navigateuradmin{
+    color: #ffffce;
+    text-align: center;
+    background: url("banniere.png") no-repeat;
+    background-size:800px 50px;
+    background-position: center;
+    margin-bottom: 3%;
+	
+}
+
+.btn{
+	border: none;
+	background: url("bouton.png") no-repeat;
+	background-size: 100% 100%;
+	color: #cccccc;
+	margin-top: 4%;
+	box-shadow: none;
+} 
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+	color: #ffffff;
+	text-decoration: none;
+	border-color: transparent;
+	border:none;
+}
+.btn:active,
+.btn.active {
+	background: url("bouton.png") no-repeat;
+	background-size: 100% 100%;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-color: transparent;
+}
+
+.btn-lg:active,
+.btn.active{
+	border:none;
+	box-shadow: none;
+	outline:none;
+}
+
+
+
+.informations{
+	margin-bottom: 2%;
+	text-align: center;
+	margin-left: 25%;
+	width: 50%;
+}
+
+.nav-tabs{
+	border: none;
+}
+
+.nav-tabs > li > a,
+.nav-tabs > li > a:hover {
+  	background: url("bouton_actif.png");
+    background-size: 100% 100%;
+	border: none;
+	color: #ffffce;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	border: none;
+	background: url("bouton.png");
+    background-size: 100% 100%;
+	border-color: transparent;
+	color: none;
+	color: #ffffce;
+}
+
+.tab-content{
+	padding-top: 1.25%;
+	padding-bottom: 1.25%;
+}
+
+.plateau_pioches{
+    background: url("banniere.png");
+    background-size: 100% 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.panel{
+    background-color: transparent;
+    border: transparent;
+}
+
+
+.panel-default > .panel-heading {
+    background-image: url(banniere.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: transparent;
+    margin-bottom: 1%;
+
+    color: #ffffce;
+}
+
+.bord-panel {
+	background: url("panel1.png") no-repeat, url("panel2.png") bottom no-repeat;
+    background-size: 100%, 100%;
+    border: none;
+    background-position: left top, left bottom;
+    background-color: transparent;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+.panel-body{
+	
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.repeat-background{
+	padding-left: 20px;
+    padding-right: 30px;
+    background: url("panel3.png") left top repeat-y;
+    background-size: 100%;
+    height:100%;
+}
+
+.bord-panel-bord {
+  background: url("panel1_bord.png") no-repeat, url("panel2_bord.png") bottom no-repeat;
+  background-size: 100%, 100%;
+  border: none;
+  background-position: left top, left bottom;
+  background-color: transparent;
+}
+
+.panel-body-bord{
+	padding-top: 6%;
+	padding-bottom: 6%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.repeat-background-bord{
+
+	padding-left: 20px;
+	padding-right: 15px;
+	background: url("panel3_bord.png") left top repeat-y;
+	background-size: 100%;
+	height:100%;
+}
+
+.bord-panel-main {
+  background: url("panel1_main.png") no-repeat, url("panel2_main.png") bottom no-repeat;
+  background-size: 100%, 100%;
+  border: none;
+  background-position: left top, left bottom;
+  background-color: transparent;
+}
+
+.repeat-background-main{
+
+	padding-left: 20px;
+	padding-right: 15px;
+	background: url("panel3_main.png") left top repeat-y;
+	background-size: 100%;
+	height:100%;
+}
+
+.panel-connexion{
+    background-color: transparent;
+    border: transparent;
+}
+
+
+
+.texteErreur{
+    color: #a94442;
+    padding-top: 5px;
+
+}
+
+.icone{
+    text-align: left;
+}
+
+.navbar-inverse{
+    background-image: none;
+    background-color: transparent;
+}
+
+.navbar {
+    border: none;
+}
+
+.navbar .navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+    color: #ffffce;
+
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: #ffffce;
+}
+
+.navbar-brand{
+	font-size:21px;
+}
+
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+
+#rightDock {
+    float: right;
+    width: 21%;
+    margin-right: 14%;
+    margin-left: 20px;
+    min-width: 180px;
+}
+
+.panel-connexion input, .panel-connexion button {
+    display: inline-block;
+    margin: 5px 0px;
+}
+
+.panel-title {
+	font-size:20px;
+	text-align: center;
+	
+}
+
+#btn-accepter-invitation{
+	width: 40%;
+	min-width: 200px;
+	max-width: 250px;
+	}
+
+#btn-repondre{
+	min-width: 200px;
+	max-width: 240px;
+	width: 25%;
+}
+
+#btn-envoyer{
+	min-width: 200px;
+	max-width: 250px;
+	width: 25%;
+}
+
+#btn-creer-la-partie{
+	min-width: 200px;
+	max-width:250px;
+	margin-top: 4%;
+}
+
+#btn-rejoindre{
+	min-width: 200px;
+	max-width: 250px;
+	width: 20%;
+}
+
+#btn-lancer-partie{
+	min-width: 200px;
+	max-width: 250px;
+	width: 25%;
+}
+
+#btn-ne-plus-participer{
+	min-width: 200px;
+	max-width: 250px;
+	width: 25%;
+}
+
+#btn-participer{
+	min-width: 200px;
+	max-width: 250px;
+	width: 20%;
+}
+
+#btn-rejoindre-la-partie {
+	min-width: 225px;
+	max-width: 250px;
+	width: 65%;
+}
+
+#btn-rejoindre-partie-publique{
+	min-width: 200px;
+	max-width: 250px;
+	
+	width: 65%;
+}
+
+#btn-sauvegarder-modif{
+	margin-top: 4%;
+	padding-left: 3%;
+	padding-right: 4%;
+}
+
+#btn-retour-partie{
+	min-width: 200px;
+	max-width: 250px;
+	width: 20%;
+}
+
+#btn-connexion {
+    float: right;
+    background: url("bouton.png");
+    background-size: 100% 100%;
+    border: transparent;
+}
+
+#panel-connexion{
+    margin-bottom:15%;
+}
+
+.required:after{
+    content:"*";
+    color : red;
+}
+
+.content {
+    width: 45%;
+    margin-left: 16%;
+    float: left;
+    min-width: 450px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.choix-cartes{
+	width:80%;
+	margin-left:10%;
+}
+
+.connexion{
+	width: 25%;
+	margin-left:35%;
+}
+
+.resultats{
+        width: 50%;
+        margin-left:25%;
+    
+}
+
+.spacer {
+    clear: both;
+}
+
+.inscription{
+	margin: 5px 0 30px;
+}
+
+.tour {
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+td, th {
+    padding: 5px;
+}
+
+table {
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+#container_plateau_pioches {
+    width: 20%;
+    padding: 0;
+}
+
+#map-container {
+    width: 70%;
+    padding: 0px 40px;
+}
+
+.carte {
+    margin: 0px;
+    padding: 5px;
+}
+
+.carte_pioche {
+    width: 40%;
+}
+
+.row {
+    margin: 0px;
+}
+
+.carte_destination {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.carte_destination_text {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    line-height: 1.1em;
+    top: 30%;
+}
+
+#plateau_body {
+    min-width: 1100px;
+    overflow: auto;
+}
+
+.participant {
+    font-size: 25px;
+}
+
+.circle {
+    display: inline-block;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.circle_rouge {
+    background-color: red;
+}
+
+.circle_bleu {
+    background-color: blue;
+}
+
+.circle_marron {
+    background-color: #954621;
+}
+
+.circle_prune {
+    background-color: #9f237b;
+}
+
+.circle_vert {
+    background-color: green;
+}
+
+.carteRegle {
+    height: 150px; 
+    width: 100px;
+}
